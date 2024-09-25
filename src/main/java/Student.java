@@ -1,9 +1,10 @@
 import lombok.AllArgsConstructor;
+import lombok.Data;
 
 import java.time.LocalDate;
 
 
-@AllArgsConstructor
+@Data
 public class Student {
     private long id;
     private String first_name;

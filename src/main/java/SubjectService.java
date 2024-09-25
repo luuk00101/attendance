@@ -27,6 +27,4 @@ public class SubjectService {
 
         return subject.getAttendees().size();
     }
-
-
 }

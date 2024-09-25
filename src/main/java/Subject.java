@@ -4,7 +4,6 @@ import lombok.Data;
 import java.util.Set;
 
 @Data
-@AllArgsConstructor
 public class Subject {
     private long id;
     private String name;
